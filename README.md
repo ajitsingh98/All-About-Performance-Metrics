@@ -4,7 +4,7 @@ This repository contains a comprehensive collection of performance metrics for v
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Available Metrics](#available-metrics)
+- [Implemented Metrics](#implemented-metrics)
 - [Usage](#usage)
 - [Data](#data)
 - [Contributing](#contributing)
@@ -14,11 +14,11 @@ This repository contains a comprehensive collection of performance metrics for v
 
 Evaluating the performance of machine learning models is a crucial step in the development and assessment of their effectiveness. This repository aims to provide a wide range of performance metrics that can be applied to various machine learning tasks. By using these metrics, you can measure and analyze the performance of your models, gain insights into their strengths and weaknesses, and make informed decisions about improving them.
 
-## Available Metrics
+## Implemented Metrics
 
 The repository currently includes the following performance metrics:
 
-### Regression Metrics
+### [Regression Metrics](regression_metrics.ipynb)
 
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
@@ -26,7 +26,7 @@ The repository currently includes the following performance metrics:
 - R-squared (R2) Score
 - Adjusted R-squared (R2) Score
 
-### Classification Metrics
+### [Classification Metrics](classification_metrics.ipynb)
 
 - Confusion Matrix 
 - Accuracy Score
@@ -37,7 +37,7 @@ The repository currently includes the following performance metrics:
 - Area Under the Receiver Operating Characteristic Curve (ROC AUC)
 -  Classification report
 
-### Clustering Metrics
+### [Clustering Metrics](clustering_metrics.ipynb)
 
 - Silhouette Coefficient
 
@@ -85,4 +85,4 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 ---
 
-I hope that this repository and the included performance metrics will be valuable tools in evaluating the effectiveness of your machine learning models. Feel free to explore, experiment, and contribute to further improve the available metrics. If you have any questions or encounter any issues, please don't hesitate to reach out to us. Happy modeling and evaluating!
+I hope that this repository and the included performance metrics will be valuable tools in evaluating the effectiveness of your machine learning models. Feel free to explore, experiment, and contribute to further improve the available metrics. If you have any questions or encounter any issues, please don't hesitate to reach out to me. Happy modeling and evaluating!
