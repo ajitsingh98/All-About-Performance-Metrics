@@ -41,6 +41,12 @@ The repository currently includes the following performance metrics:
 
 - Silhouette Coefficient
 
+### [Sequence Prediction](sequence_model_evaluation_metrics_nlp.ipynb)
+
+- Word Error Rate
+- BLEU Score
+- Perplexity
+
 These metrics cover a wide range of evaluation needs and can be utilized across different machine learning domains. Each metric has been implemented from scratch, ensuring transparency and allowing for customization if needed. 
 
 ## Usage
