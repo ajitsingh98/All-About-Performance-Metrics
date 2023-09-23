@@ -1,4 +1,4 @@
-# All-About-Performance-Metrics
+# Evaluation Metrics in Machine Learning 
 This repository contains a comprehensive collection of performance metrics for various machine learning tasks, including regression, classification, and clustering. These metrics have been implemented from scratch to provide a reliable and customizable way of evaluating the performance of your machine learning models.
 
 ## Table of Contents
@@ -25,6 +25,9 @@ The repository currently includes the following performance metrics:
 - Mean Absolute Error (MAE)
 - R-squared (R2) Score
 - Adjusted R-squared (R2) Score
+- Pearson correlation
+- spearman correlation
+
 
 ### [Classification Metrics](classification_metrics.ipynb)
 
@@ -35,7 +38,9 @@ The repository currently includes the following performance metrics:
 - Recall Score
 - Log Loss/ Binary Cross Entropy Loss
 - Area Under the Receiver Operating Characteristic Curve (ROC AUC)
--  Classification report
+- Classification report
+- Average precision
+- precision-recall curve
 
 ### [Clustering Metrics](clustering_metrics.ipynb)
 
